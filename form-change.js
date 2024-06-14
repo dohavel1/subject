@@ -5,22 +5,22 @@ document.addEventListener('DOMContentLoaded', function() {
     const confirmationMessage = document.getElementById('confirmation-message');
 
     form.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
+        event.preventDefault();
 
-        // Capture input values
+
         const email = emailInput.value;
         const teamFeature = teamFeatureInput.value;
 
-        // Simple validation (optional)
+
         if (email === '' || teamFeature === '') {
             alert('모든 필드를 입력하세요.');
             return;
         }
 
-        // Display confirmation message
+
         confirmationMessage.style.display = 'block';
 
-        // Clear input fields
+ 
         emailInput.value = '';
         teamFeatureInput.value = '';
     });

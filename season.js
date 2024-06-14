@@ -199,5 +199,4 @@ function updateTable() {
     });
 }
 
-// 초기 테이블 업데이트
 updateTable();
