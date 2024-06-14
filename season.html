@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Premier League Blog</title>
+    <link rel="stylesheet" href="season.css">
+</head>
+<body>
+    <header>
+        <h1><img src="images/lion-logo.png" alt="Premier League logo"></h1>
+        <nav>
+            <ul>
+             <li><a href="https://en.wikipedia.org/wiki/Premier_League">프리미어리그 소개</a></li>
+             <li><a href="team.html">각 구단의 특징</a></li>
+             <li><a href="https://www.premierleague.com/">공식 사이트</a></li>
+             <li><a href="season.html">시즌별 순위</a></li>
+             <li><a href="https://www.youtube.com/watch?v=sAewmh-Lu8U&list=PLQ_voP4Q3cffZYz6sVkSigiLfAZI_5vba">각 경기별 보러가기</a></li>
+            </ul>
+            </nav>
+    </header>
+    <main>
+        <div class="season-navigation">
+            <button id="prev-season">&#9664;</button>
+            <h2 id="season-title">2023/24 팀 순위</h2>
+            <button id="next-season">&#9654;</button>
+        </div>
+        <h2>팀 순위</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>순위</th>
+                    <th>팀</th>
+                    <th>경기수</th>
+                    <th>승점</th>
+                    <th>승</th>
+                    <th>무</th>
+                    <th>패</th>
+                    <th>득점</th>
+                    <th>실점</th>
+                    <th>득실차</th>
+                </tr>
+            </thead>
+    <tbody id="team-standings">
+    </tbody>
+</table>
+</main>
+<script src="season.js"></script>
+</body>
+</html>

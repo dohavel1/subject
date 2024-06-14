@@ -1,0 +1,86 @@
+
+header{
+ width: 1280px;
+ margin: 0 auto;
+ margin-bottom: 44px;
+}
+header h1{
+    text-align: center;
+    padding:20px 0px 16px;
+}
+header nav ul{
+   display: flex;
+   margin-bottom: 44px;
+   justify-content: center;
+   border-bottom: 8px solid purple;
+   border-top:8px solid purple;
+   padding: 12px 0px 10px;
+}
+header nav ul li{
+    margin: 0 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+header nav ul li a:hover{
+    background-color: purple;
+}
+
+div{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    flex-basis: 920px;
+}
+.purple-underline{
+    border-bottom:  4px solid purple;
+}
+.font-recycle{
+    font-size: 20px;
+}
+.post-img{
+ display:inline;
+ width: 50px;
+ height: 50px;
+ margin:25px;
+justify-content: space-between;
+}
+.img-size{
+    width: 300px;
+    height: 300px;
+}
+.inline{
+    display: inline;
+    padding: 50px;
+}
+.right{
+    margin-right: 40px;
+    float:right
+}
+aside{
+    flex-basis: 284px;
+}
+aside nav{
+    border: 5px solid purple;
+    padding: 24px 28px;
+    margin-bottom: 24px;
+}
+aside nav h2{
+    margin-bottom: 18px;
+    font-size: 22px;
+    font-weight:bold;
+}
+.popular-li{
+    margin:10px 0px;
+}
+.side-box {
+    border: 5px solid purple;
+}
+footer{
+    background-color: #523f2e;
+    color:#ffffff;
+    text-align:center;
+
+}
